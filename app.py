@@ -4,7 +4,7 @@ from flask_cors import CORS
 import os
 from dotenv import load_dotenv
 from datetime import timedelta
-import shutil
+#import shutil
 import time
 from pathlib import Path
 

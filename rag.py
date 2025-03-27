@@ -10,8 +10,8 @@ from langchain_community.embeddings.sentence_transformer import SentenceTransfor
 from langchain_chroma import Chroma
 from langchain.schema.runnable import RunnablePassthrough
 from gtts import gTTS
-import speech_recognition as sr
-import pygame
+#import speech_recognition as sr
+#import pygame
 import os
 import io
 import tempfile
@@ -19,7 +19,7 @@ import time
 import random
 import string
 import shutil
-import psutil
+#import psutil
 from langchain_community.vectorstores import FAISS
 #from langchain.vectorstores import FAISS
 from pathlib import Path
