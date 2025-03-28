@@ -1,11 +1,11 @@
-from flask import Flask, render_template, request, jsonify, session
+from flask import Flask, render_template, request, jsonify#, session
 from rag import get_rag_response, RAGPipeline
 from flask_cors import CORS
 import os
 from dotenv import load_dotenv
 from datetime import timedelta
 #import shutil
-import time
+#import time
 from pathlib import Path
 
 app = Flask(__name__)
@@ -45,5 +45,8 @@ def predict():
 
 
 
+#if __name__ == "__main__":
+#    app.run(debug=True)
+
 if __name__ == "__main__":
-    app.run(debug=True)
+    app.run(debug=True, host='0.0.0.0')
