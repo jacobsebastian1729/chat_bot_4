@@ -1,5 +1,5 @@
 from flask import session
-from chromadb.utils import embedding_functions
+#from chromadb.utils import embedding_functions
 from langchain_groq import ChatGroq
 from dotenv import load_dotenv
 from langchain_core.output_parsers import StrOutputParser
@@ -7,14 +7,14 @@ from langchain_core.prompts import ChatPromptTemplate
 from langchain_community.document_loaders import Docx2txtLoader
 from langchain_text_splitters import RecursiveCharacterTextSplitter
 from langchain_community.embeddings.sentence_transformer import SentenceTransformerEmbeddings
-from langchain_chroma import Chroma
+#from langchain_chroma import Chroma
 from langchain.schema.runnable import RunnablePassthrough
-from gtts import gTTS
+#from gtts import gTTS
 #import speech_recognition as sr
 #import pygame
 import os
 import io
-import tempfile
+#import tempfile
 import time
 import random
 import string
